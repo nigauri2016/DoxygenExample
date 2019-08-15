@@ -13,19 +13,20 @@
 namespace MyNamespace
 {
    /// \brief A brief class description. 
-   
+   /// 
    /// A detailed class description, it
    /// should be 2 lines at least.
    class  MyClass
    {
         public:
+            /// \brief brief constructor description. 
             MyClass();
 
             /// class variable description
             int PublicVariable; 
             
         public:
-            /// A brief function description. 
+            /// \brief A brief function description. 
             ///
             /// \param p1 Description for p1.
             /// \param p2 Description for p2.
